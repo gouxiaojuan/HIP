@@ -62,7 +62,7 @@ Bior_Highlight_point <- function(df, group.by='subtype_rename', highlight_group,
   return(p)
 }
 
-### Figure A : shows the UMAP diagram of all groups of three species
+### Figure A: UMAP maps showing three species
 three_species <- readRDS('E:/seurat_spatial/transfer_0818/singcell/rename_data/SCTIntegration/seurat_Macaca_Marmaset_Mouse_SCT_intergrat.rds.gz')
 color <- c('Glu CA1'="#1F77B4FF","Glu CA2"="#FFBB78FF",'Glu CA2/3'="#FFBB78FF","Glu CA3"="#FF7F0EFF",'Glu CA3/4'="#FF7F0EFF", 'Glu DG'="#D62728FF",
            'Glu SUB'="#17BECFFF",'Glu pSUB-deep'="#2CA02CFF", 'Glu pSUB-int'="#9EDAE5FF","Glu HIP"="#9467BDFF",'GABA CCK'="#AEC7E8FF",'GABA LAMP5'="#F7B6D2FF",'GABA PVALB'="#98DF8AFF",
